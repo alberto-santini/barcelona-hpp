@@ -1,0 +1,12 @@
+# For the backend:
+
+__pycache__
+venv
+.python-version
+
+# For the frontend:
+
+node_modules
+
+# For both:
+.idea

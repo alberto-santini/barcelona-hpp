@@ -1,0 +1,12 @@
+$font-family-sans-serif: 'Montserrat', sans-serif;
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+.price {
+    font-size: 125%;
+    font-weight: 700;
+}
+
+.price small {
+    font-weight: 100;
+}
