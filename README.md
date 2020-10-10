@@ -16,12 +16,14 @@ Resource '/' expects five parameters:
 
 If returns a JSON object with information on how much you should pay, a comparison with similar apartments, and an array of similar listings.
 
-One can launch the server from the `backend` folder with command `uvicorn main --reload`.
+You can launch the server from the `backend` folder with command `uvicorn main:app --reload`.
 
 ## Frontend
 
 The frontend is a React single-page app with a form to input the data.
 It performs a `fetch` request to the backend and presents the resutls to the user.
+
+You can launch the server from the `frontend` folder with command `npm start`.
 
 ## License
 
