@@ -28,7 +28,8 @@ def get(neighbourhood: str, sqm: int, rooms: int, state: str, elevator: bool):
 
 
 def get_data(neighbourhood: str):
-    return pd.read_csv(f"data/{neighbourhood}.csv")
+    df = pd.read_csv(f"data/{neighbourhood}.csv")
+    return df[(df.sqm > 0) & (df.rooms > 0) & (df.price > 0)]
 
 
 def get_model(data: pd.DataFrame, sqm: int, rooms: int):
