@@ -3,6 +3,7 @@
 __pycache__
 venv
 .python-version
+geckodriver.log
 
 # For the frontend:
 
@@ -10,3 +11,4 @@ node_modules
 
 # For both:
 .idea
+.vscode
