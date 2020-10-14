@@ -7,6 +7,15 @@ $font-family-sans-serif: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
-.price small {
-    font-weight: 100;
+.col-form-label {
+    font-size: 75%;
+}
+
+.ap-input {
+    height: calc(1.5em + 0.75rem + 2px);
+    border-color: #ced4da;
+}
+
+.ap-input::placeholder {
+    color: $input-placeholder-color;
 }
